@@ -89,7 +89,7 @@ const { json, response } = require("express");
 function check_nonce(nim, nonce_1, nonce_2, nonce_3) {
   const myObject = {
     1301200000: {
-      name: "NAMA CALON 1",
+      name: "NAMA CALON 0",
       hash_1:
         "hashApaAja",
       hash_2:
@@ -97,11 +97,29 @@ function check_nonce(nim, nonce_1, nonce_2, nonce_3) {
       hash_3:
         "hashKetiga",
     },
-    1301190369: {
-      name: "daffa",
-      hash_1: "apalah itu hash",
-      hash_2: " awokasdokaoksd",
-      hash_3: " akowdokskaodokasd",
+    1301200001: {
+      name: "NAMA CALON 1",
+      hash_1: "hashApaAja1",
+      hash_2: "hashApaAja1",
+      hash_3: "hashApaAja1",
+    },
+    1301200002: {
+      name: "NAMA CALON 2",
+      hash_1: "hashApaAja2",
+      hash_2: "hashApaAja2",
+      hash_3: "hashApaAja2",
+    },
+    1301200003: {
+      name: "NAMA CALON 3",
+      hash_1: "hashApaAja3",
+      hash_2: "hashApaAja3",
+      hash_3: "hashApaAja3",
+    },
+    1301200004: {
+      name: "NAMA CALON 4",
+      hash_1: "hashApaAja4",
+      hash_2: "hashApaAja4",
+      hash_3: "hashApaAja4",
     },
   };
 
